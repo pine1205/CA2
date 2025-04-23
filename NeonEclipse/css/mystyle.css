@@ -1,6 +1,273 @@
 @charset "utf-8";
 /* CSS Document */
 
-p{
+.container-fluid{
+	background-color: black;
+}
+.navbar-nav {
+	background-color: rebeccapurple;
+}
+
+.nav-link {
+	font-family: Arial, "sans-serif";
+	color: azure;
+	font-size: 20px;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right, rebeccapurple , black);
+	padding: 23px;
+	text-shadow: 2px 2px black;
+	
+}
+
+.nav-link.active {
+	background-image: linear-gradient(to right, gold, black);
+	color:azure;
+}
+
+.dropdown-item {
+	background-image: linear-gradient(to right, rebeccapurple , black);
+	color: azure;
+}
+
+body {
+	background-image:url("../images/bg.png");
+	background-size: cover;
+	background-repeat:round;
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron {
+	opacity: 0.6;
+}
+
+.jumbotron img {
+	width: 100%;
+   height: auto;
+}
+
+#logo{
+	position:fixed;
+	margin:100px;
+	margin: 10px;
+}
+
+h1 {
+	font-family: Arial, "sans-serif";
+	font-size: 85px;
+	color: rebeccapurple;
+	text-align: center;
+	margin-top: 15px;
+	text-shadow: 3px 3px black;
+	
+}
+
+h2 {
+	font-family: Arial, "sans-serif";
+	text-align: center;
+	font-size: 55px;
+	color: rebeccapurple;
+	text-shadow: 2px 2px black;
+}
+
+h3 {
+	font-family: Arial, "sans-serif";
+	text-align: center;
+	font-size: 45px;
+	color: azure;
+	margin-top:30px;
+	text-shadow: 2px 2px black;
+}
+
+h4 {
+	font-family: Arial, "sans-serif";
+}
+
+.bannersub {
+	font-family: Arial, "sans-serif";
+	font-size: 50px;
+	color:green;
+	text-align: center;
+	opacity: 1;
+	margin-top: 10px;
+	text-shadow: 3px 3px black;
+	
+}
+
+.overview {
+    font-family: Verdana, "sans-serif";
+	text-align: center;
+	font-size: 1.3em;
+	color: azure;
+	margin-top:20px;
+	background-image: linear-gradient(to bottom right, black, rebeccapurple , limegreen, azure);
+	padding: 50px;
+	border-radius: 10px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.btn.btn-primary.btn-lg {
+	background-image: linear-gradient(to right, darkgoldenrod, black);
+	color:black;
+	font-size: 20px;
+	border: 5px azure groove;
+	border-radius: 15px;
+}
+
+#countdown {
+	font-family: Arial, "sans-serif";
+	text-align: center;
+	font-size: 30px;
+	color: firebrick;
+	text-shadow:  2px 2px black;
+	text-transform: uppercase;
+}
+
+.btn.btn-primary {
+	background-image: linear-gradient(to right, firebrick, black);
+	color:azure;
+	font-size: 20px;
+	border: 5px azure groove;
+	border-radius: 15px;
+}
+
+.card-body p {
+	font-family: Verdana, "sans-serif";
+	text-align: left;
+	font-size: 15px;
+	color: rebeccapurple;
+}
+
+.contact {
+	font-family: Verdana, "sans-serif";
+	text-align: center;
+	font-size: 12px;
+	color: azure;
+	background-image: linear-gradient(to right, rebeccapurple, darkgoldenrod);
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+@media (max-width:768px) {
+	h1{
+		font-size: 40px;
+		text-shadow: 2px 2px black;
+	}
+	
+	h2{
+		font-size: 35px;
+		color: darkgreen;
+		text-shadow:  1px 1px black;
+	}
+	.bannersub {
+		font-size: 30px;
+		text-shadow: 2px 2px black;
+	}
+	h3 {
+		font-size: 25px;
+		text-shadow:  1px 1px black;
+	}
+	
+	.btn.btn-primary.btn-lg {
+		font-size:15px;
+	}
+	.overview {
+		font-size: 1em;
+		padding: 35px;
+	}
+	#logo {
+		width:40px;
+		height:30px;
+		margin:10px;
+	}
+	
+	.nav-link {
+	background-image: linear-gradient(to right, rebeccapurple , black);
+	padding: 12px;
+	font-size: 15px;	
+	text-shadow:  1px 1px black;
+	}
+	
+	.dropdown-item {
+	background-image: linear-gradient(to right, mediumpurple , black);
+	color: azure;
+    }
+	
+	#countdown {
+		font-size: 20px;
+		text-shadow:  1px 1px black;
+	}
+	
+	.card-body p {
+		font-size: 15px;
+	}
+
+	
+	
+}
+
+@media (max-width:400px) {
+	h1{
+		font-size: 30px;
+		text-shadow: 2px 2px black;
+	}
+	
+	h2{
+		font-size: 25px;
+		color: rebeccapurple;
+		text-shadow:  1px 1px black;
+	}
+	.bannersub {
+		font-size: 20px;
+		text-shadow: 1px 1px black;
+	}
+	h3 {
+		font-size: 20px;
+		text-shadow:  1px 1px black;
+	}
+	.btn.btn-primary.btn-lg {
+		font-size:10px;
+	}
+	.overview {
+		font-size: 0.8em;
+		padding: 30px;
+	}
+	#logo {
+		width:30px;
+		height:20px;
+		margin:5px;
+	}
+	
+	.nav-link {
+	background-image: linear-gradient(to right, rebeccapurple , black);
+	padding: 8px;
+	font-size: 12px;
+	text-shadow:  1px 1px black;
+	}
+	
+	.dropdown-item {
+	background-image: linear-gradient(to right, mediumpurple , black);
+	color: azure;
+    }
+	
+	#countdown {
+		font-size: 10px;
+		text-shadow:  1px 1px black;
+	}
+	
+	.card-body p {
+		font-size: 12px;
+	}
+
 	
 }

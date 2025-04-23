@@ -548,6 +548,9 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+body {
+}
+
 
 @media (min-width: 576px) {
   .container {
