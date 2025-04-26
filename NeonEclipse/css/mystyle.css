@@ -211,6 +211,11 @@ html {
 	.card-body p {
 		font-size: 15px;
 	}
+	
+	.row {
+		width:100%;
+		margin: 30px;
+	}
 
 	
 	
